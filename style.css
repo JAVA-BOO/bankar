@@ -43,6 +43,13 @@
   cursor: pointer;
 }
 
+.hero-container-img {
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 @media (max-width: 576px) {
   .love {
     width: 400px;
@@ -55,7 +62,10 @@
     width: 250px;
     height: 90px;
   }
-
+  .hero-container-img {
+    width: 500px;
+    bottom: -100px;
+  }
   .head-texts {
     font-size: 40px;
   }
