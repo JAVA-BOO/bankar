@@ -1,0 +1,66 @@
+/* .saira-<uniquifier > {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} */
+
+* {
+  font-family: "Saira", sans-serif;
+  color: rgb(24, 24, 24);
+}
+
+.nav-love {
+  gap: 30px;
+}
+
+.letsgo {
+  width: 500px;
+  height: 400px;
+}
+.letsgo2 {
+  width: 370px;
+  height: 100px;
+}
+.asteric {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-texts {
+  font-size: 70px;
+}
+
+.loveee {
+  width: 400px;
+  height: 450px;
+}
+.loveee:hover {
+  transform: scale(1.05);
+  transition-duration: 2s;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .love {
+    width: 400px;
+  }
+  .letsgo {
+    width: 350px;
+    height: 250px;
+  }
+  .letsgo2 {
+    width: 250px;
+    height: 90px;
+  }
+
+  .head-texts {
+    font-size: 40px;
+  }
+  .loveee {
+    width: 350px;
+    height: 350px;
+  }
+}
